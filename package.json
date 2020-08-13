@@ -1,0 +1,17 @@
+{
+  "name": "first-folder",
+  "version": "1.0.0",
+  "description": "\"landing page for first-folder\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "syedubaid",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
